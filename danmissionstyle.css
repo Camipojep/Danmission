@@ -5,10 +5,15 @@ height: auto;
 }
 
 header {
-    display: inline;
-    margin-left: auto;
+    background-color: white;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
 }
 
+nav {
+    text-align: end;
+}
 .menu {
     background-color: white; 
     list-style-type: none; 
@@ -25,6 +30,54 @@ header {
     color: #32a844; 
     font-size: 16px;
 
+}
+
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    align-items: center; 
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.menu li button {
+    background-color: #bf1f27;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.menu li button:hover {
+    background-color: #32a844; 
+}
+
+.burger-menu {
+    display: none; 
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.burger-menu .bar {
+    background-color: #32a844; 
+    background-color:#32a844 ;
+    height: 2px;
+    width: 25px;
+    margin: 3px 0;
+    transition: background-color 0.3s;
+}
+
+
+.burger-menu:hover .bar {
+    background-color: #bf1f27; 
 }
 
 body {
