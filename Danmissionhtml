@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Danmission</title>
+    <link rel="stylesheet" type="text/css" href="danmissionstyle.css">
 </head>
 <body>
-    <h1>Danmission</h1>
-    <logo>/Users/camillepoznanski/Desktop/School/Danmission/Danmission_logo_1200x630.png
+    <nav>
+        <ul class="menu">
+            <li><a href="Støt">Støt</a></li>
+            <li><a href="Vær med">Vær med</a></li>
+            <li><a href="Genbrug">Genbrug</a></li>
+            <li><a href="Vores arbejde">Vores arbejde</a></li>
+            <li><a href="Støt"><button>Støt</button></a></li>
+            <li><a href="DA EN">DA EN</a></li>
+        </ul>
+    </nav>
+      <header>
+         <img src="Danmission-logo.png" alt="danmissionlogo" class="danmissionlogo">
+         <p>
 
-    </logo>
-    <p></p>
+         </p>
+    </header>   
 </body>
 </html>
