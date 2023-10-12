@@ -1,44 +1,35 @@
-.danmissionlogo {
-width: 250px;
-max-height: fit-content;
-
-}
-
-header {
-    background-color: white;
-    color: #fff;
-    padding: 10px;
-    text-align: left;
-}
-
-.logo img {
-    max-height: 50px;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    justify-content: space-between;
-}
-
-header:not(:last-child)::after {
-    content: "|";
-    color: #32a844;
-    margin-left: 1px;
-    font-size: 50px;
+.danmissionlogo img {
+    max-height: 100px;
 
 }
 
 nav {
     margin-left: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+     text-align: end;
+    margin-left: 20px;
+    padding-top: 50px; 
+    }
+    
+
+
+header:not(:last-child)::after {
+    content: "|";
+    color: #32a844;
+    margin-left: 1px;
+    font-size: 30px;
+    size: 30px;
+
 }
 
-nav {
-    text-align: end;
-}
 .menu {
     background-color: white; 
     list-style-type: none; 
-    padding: 0;
+    padding: 35px;
     margin: 0;
+    display: flex; 
+    align-items: center; 
 }
 .menu li:hover{
     color: #b3c6c9;
@@ -57,23 +48,11 @@ nav {
 .menu li a {
     text-decoration: none; 
     color: #32a844; 
-    font-size: 16px;
+    font-size: 20px;
 
 }
 
 
-.menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex; 
-    align-items: center; 
-}
-
-.menu li {
-    display: inline;
-    margin-right: 20px;
-}
 
 .menu li img {
     max-height: 20px; 
@@ -85,42 +64,19 @@ nav {
 .menu li button {
     background-color: #bf1f27;
     color: #fff;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-}
-
-.menu li button {
     font-size: 25px; 
     padding: 8px 17px; 
     font-weight: 600;
+     border: none;
+    cursor: pointer;
 }
+
 
 .menu li button:hover {
     background-color: #32a844; 
 }
 
-.menu {
-    list-style-type: none;
-    padding: 20;
-    margin: 20;
-    margin-top: 20;
-}
 
-
-.menu li {
-    display: inline;
-    margin-right: 20px;
-}
-
-
-
-.menu li a {
-    text-decoration: none;
-    color: #32a844;
-    font-size: 25px;
-    transition: color 0.3s;
-}
 
 .menu li a:hover {
     color: #b3c6c9;
@@ -153,19 +109,9 @@ nav {
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-}
 
-
-
-
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
 }
 
 
@@ -199,7 +145,53 @@ header {
     color: #fff;
 }
 
+.parallax-content {
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif
+}
 
+.button-container {
+    display: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button1 {
+    background-color:#bf1f27;
+    border: 2px solid #bf1f27;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px;
+    display: inline-block;
+}
+
+.button1:hover {
+    background-color:#32a844;
+    color: #fff;
+    border:#32a844;
+}
+
+.button2 {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px;
+    display: inline-block;
+}
+
+.button2:hover {
+    background-color: transparent;
+    color: #fff;
+    border-color: #32a844;
+
+}
 
 
 
