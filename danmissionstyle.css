@@ -11,6 +11,22 @@ header {
     text-align: left;
 }
 
+.logo img {
+    max-height: 50px;
+}
+
+header:not(:last-child)::after {
+    content: "|";
+    color: #32a844;
+    margin-left: 1px;
+    font-size: 50px;
+
+}
+
+nav {
+    margin-left: 20px;
+}
+
 nav {
     text-align: end;
 }
@@ -19,6 +35,11 @@ nav {
     list-style-type: none; 
     padding: 0;
     margin: 0;
+}
+.menu li:hover{
+    color: #b3c6c9;
+
+
 }
 .menu li {
     display: inline; 
@@ -46,6 +67,12 @@ nav {
     margin-right: 20px;
 }
 
+.menu li img {
+    max-height: 20px; 
+    margin-left: 10px; 
+    margin-right: 0;
+    color: #32a844;
+}
 
 .menu li button {
     background-color: #bf1f27;
@@ -54,9 +81,17 @@ nav {
     border: none;
     cursor: pointer;
 }
+
+.menu li button {
+    font-size: 25px; 
+    padding: 8px 17px; 
+    font-weight: 600;
+}
+
 .menu li button:hover {
     background-color: #32a844; 
 }
+
 
 .burger-menu {
     display: none; 
@@ -69,9 +104,9 @@ nav {
 .burger-menu .bar {
     background-color: #32a844; 
     background-color:#32a844 ;
-    height: 2px;
-    width: 25px;
-    margin: 3px 0;
+    height: 4px;
+    width: 30px;
+    margin: 3px;
     transition: background-color 0.3s;
 }
 
@@ -84,16 +119,76 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
-.background {
+
+
+.background-image {
     background-image: url('background-pic.jpg'); 
     background-size: cover;
-    background-position: center top;
-    height: 50vh; 
+    background-position: center;
+    text-align: center;
+    color: #fff; 
+    padding: 50px;
 }
 
-.content {
-    background-color: #fff; 
-    height: 50vh; 
+.background-image h1 {
+    font-size: 36
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    max-height: 150px; 
+}
+
+nav {
+    margin-left: 20px; 
+}
+
+
+
+.menu {
+    list-style-type: none;
+    padding: 20;
+    margin: 20;
+    margin-top: 20;
+}
+
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0; 
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #32a844;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #b3c6c9;
+}
+
+
+
