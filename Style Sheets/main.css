@@ -194,8 +194,38 @@ header {
 }
 
 
+/*Jordklode grafisk element*/
 
+section {
+    background: #e8f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+section h2, h3, p {
+    font-family: sans-serif;
+    color: #2d3748;
+}
+
+section h2 {
+    font-size: 60px;
+}
+
+section p {
+    font-size: 20px;
+}
+
+#world {
+    background: url(../Images/p4-world-dry.png);
+    width: 200px;
+    height: 200px;
+}
+
+#world:hover {
+    background: url(../Images/p4-world.png);
+}
 
 
 
