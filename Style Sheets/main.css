@@ -116,7 +116,7 @@ body {
 
 
 .parallax {
-    background-image: url('background-pic.jpg'); 
+    background-image: url('../Images/background-pic.jpg'); 
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -133,7 +133,7 @@ header {
 }
 
 .parallax {
-    background-image: url('background-pic.jpg'); 
+    background-image: url('../Images/background-pic.jpg'); 
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
