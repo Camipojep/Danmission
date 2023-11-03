@@ -1,3 +1,4 @@
+/*CAMILLE*/
 .danmissionlogo img {
     max-height: 100px;
 
@@ -194,9 +195,11 @@ header {
 }
 
 
-/*Jordklode grafisk element*/
 
-section {
+
+/*CECILIE*/
+
+.vor-arb {
     background: #e8f4f4;
     display: flex;
     flex-direction: column;
@@ -204,19 +207,21 @@ section {
     align-items: center;
 }
 
-section h2, h3, p {
+.vor-arb h2, .vor-arb h3, .vor-arb p {
     font-family: sans-serif;
     color: #2d3748;
 }
 
-section h2 {
+.vor-arb h2 {
     font-size: 60px;
 }
 
-section p {
+.vor-arb p {
     font-size: 20px;
 }
 
+
+/*Jordklode grafisk element*/
 #world {
     background: url(../Images/p4-world-dry.png);
     width: 200px;
@@ -231,3 +236,6 @@ section p {
 
 
 
+
+
+/*NANA*/
