@@ -96,7 +96,7 @@ header:not(:last-child)::after {
     height: 300px; 
     text-align: center; 
     padding: 15px;
-    margin-left: -200px;
+    margin-left: -250px;
     z-index: 1;
   }
 
