@@ -25,25 +25,11 @@ function showSlides(n) {
 
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-  var button = document.getElementById("button");
-  var popup = document.getElementById("popup");
-  var closePopup = document.getElementById("closePopup");
 
-  button.addEventListener("click", function() {
-      popup.style.display = "block";
-  });
-
-  closePopup.addEventListener("click", function() {
-      popup.style.display = "none";
-  });
-
-  window.addEventListener("click", function(event) {
-      if (event.target === popup) {
-          popup.style.display = "none";
-      }
-  });
-});
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
 
 
 
